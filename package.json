@@ -1,6 +1,6 @@
 {
     "name": "indexed-object",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A base class for objects that supports indexing via integer values.",
     "main": "index.js",
     "types": "index.d.ts",
@@ -9,8 +9,7 @@
     },
     "author": "Ron Buckton (rbuckton@chronicles.org)",
     "license": "Apache-2.0",
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "@types/jest": "^23.3.11",
         "@types/node": "^11.11.0",
