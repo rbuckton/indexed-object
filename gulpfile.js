@@ -25,6 +25,6 @@ const ci = gulp.series(clean, build);
 gulp.task("clean", clean);
 gulp.task("build", build);
 gulp.task("ci", ci);
-gulp.task("test", test);
-gulp.task("watch", watch);
+gulp.task("test", gulp.series(clean, test));
+gulp.task("watch", gulp.series(clean, watch));
 gulp.task("default", build);

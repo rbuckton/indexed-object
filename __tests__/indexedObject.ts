@@ -67,4 +67,12 @@ describe("indexedObject", () => {
         expect(fn).toBeCalledTimes(1);
         expect(fn).toBeCalledWith(0);
     });
+    it("defineProperty", () => {
+        const sentinel = {};
+        const fn = jest.fn().mockReturnValue(true);
+        const obj = new class extends TestableIntegerIndexedObject { };
+        const x = Reflect.defineProperty(obj, 0, { enumerable: true, configurable: false, writable: true, value: sentinel });
+        expect(fn).toBeCalledTimes(0);
+        expect(x).toBe(false);
+    });
 });
