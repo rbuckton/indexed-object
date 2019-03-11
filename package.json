@@ -1,0 +1,25 @@
+{
+    "name": "indexed-object",
+    "version": "1.0.0",
+    "description": "A base class for objects that supports indexing via integer values.",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "build": "gulp"
+    },
+    "author": "Ron Buckton (rbuckton@chronicles.org)",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "tslib": "^1.9.3"
+    },
+    "devDependencies": {
+        "@types/jest": "^23.3.11",
+        "del": "^3.0.0",
+        "gulp": "^4.0.0",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-typescript": "^5.0.0",
+        "jest": "^23.6.0",
+        "ts-jest": "^23.10.5",
+        "typescript": "^3.3.3333"
+    }
+}
