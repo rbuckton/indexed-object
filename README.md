@@ -1,5 +1,8 @@
 # `indexed-object`
 
+> NOTE: `indexed-object` has been deprecated in favor of [`@esfx/indexed-object`](https://github.com/esfx/esfx/blob/master/packages/indexed-object#readme).
+> Please update your references.
+
 The `indexed-object` package provides a base class that allows for the definition of objects
 that support integer indexes similar to native Arrays and Typed Arrays.
 
